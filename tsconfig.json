@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "./dist/",
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es6",
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "noUnusedLocals": false,
+        "esModuleInterop": true,
+        "lib": ["es2017", "dom"],
+        "skipLibCheck": true,
+        "paths": {
+            "common/*": ["./common/*"],
+            "core/*": ["./core/*"]
+        }
+    },
+    "include": ["src/**/*.ts", "src/index.ts"]
+}
